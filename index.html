@@ -1,0 +1,511 @@
+<!DOCTYPE>
+
+<html>
+
+ 
+
+<head>
+
+ 
+
+    <title>Abdullah's Homepage</title>
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <style>
+
+        li {
+
+            color: SeaGreen
+
+        }
+
+ 
+
+        body {
+
+            background-color: PowderBlue;
+
+        }
+
+ 
+
+        .roundimg {
+
+ 
+
+            border-radius: 50%;
+
+        }
+
+ 
+
+        .button {
+
+            background-color: #01ffff;
+
+            /* blue */
+
+            border: none;
+
+            color: white;
+
+            padding: 16px 32px;
+
+            text-align: center;
+
+            text-decoration: none;
+
+            display: inline-block;
+
+            font-size: 16px;
+
+            margin: 4px 2px;
+
+            transition-duration: 0.4s;
+
+            cursor: pointer;
+
+        }
+
+ 
+
+        .button1 {
+
+            background-color: white;
+
+            color: black;
+
+            border: 2px solid #4CAF50;
+
+        }
+
+ 
+
+        .button1:hover {
+
+            background-color: #4CAF50;
+
+            color: white;
+
+        }
+
+ 
+
+        .button1 {
+
+            border-radius: 50px;
+
+        }
+
+ 
+
+        @-webkit-keyframes roll {
+
+            from {
+
+                -webkit-transform: rotate(0deg)
+
+            }
+
+ 
+
+            to {
+
+                -webkit-transform: rotate(360deg)
+
+            }
+
+        }
+
+ 
+
+        @-moz-keyframes roll {
+
+            from {
+
+                -moz-transform: rotate(0deg)
+
+            }
+
+ 
+
+            to {
+
+                -moz-transform: rotate(360deg)
+
+            }
+
+        }
+
+ 
+
+        @keyframes roll {
+
+            from {
+
+                transform: rotate(0deg)
+
+            }
+
+ 
+
+            to {
+
+                transform: rotate(360deg)
+
+            }
+
+        }
+
+ 
+
+        .rollclass {
+
+            -moz-animation-name: roll;
+
+            -moz-animation-duration: 4s;
+
+            -moz-animation-iteration-count: 1;
+
+            -webkit-animation-name: roll;
+
+            -webkit-animation-duration: 4s;
+
+            -webkit-animation-iteration-count: 1;
+
+        }
+
+    </style>
+
+ 
+
+    <script>
+
+ 
+
+        function refresh() {
+
+
+
+
+
+            var element = document.getElementsByTagName("body")[0];
+                element.classList.add("rollclass");
+
+                window.setTimeout(function () {
+                    element.classList.remove('rollclass');
+                    }, 5000);
+
+
+
+
+        }
+
+ 
+
+        function unleashBugs() {
+            new SpiderController();
+            new BugController();
+        }
+
+    </script>
+
+ 
+
+    <script src="bug-min.js"></script>
+
+ 
+
+</head>
+
+ 
+
+<body>
+
+
+
+
+
+
+
+
+    <h1 style="background-color:DarkTurquoise;">WELCOME TO MY HOMEPAGE!</h1>
+
+ 
+
+    <table style="width:100%">
+
+        <tr>
+
+            <td><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRgVFRYYGBgYGBgYGBgYGBgYGBgYGBgaGhwYGBgcI
+
+                S4lHB4rIRgYJzgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHzQrJCs0NDY0NDQ0NDQ0MTQ0NDQ0NDE0NDQ0NDQ0NDY0NDQ0NDQ0NDQ0NTQ0NDQ0ND
+
+                E3NDQ0NP/AABEIAQsAvQMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAACBAEDBQAGB//EADsQAAEDAgMFBQgCAQMEAwAAAAEAAhEDIQQSMQVBUWHwcYG
+
+                RocEGEyIyUrHh8WLRQhWSojNygrIUI0P/xAAaAQACAwEBAAAAAAAAAAAAAAAAAQIDBAUG/8QALREAAgIBBAECBQIHAAAAAAAAAAECEQMEEiExQRNRFCJhcYEF
+
+                oTJCkbHB0fD/2gAMAwEAAhEDEQA/APf5lOdUZl2ZeZ+CRu9Qv94o94qMy7Mn8EHqF/vF2ZUSolL4EPUG2vRByVY5WgprR0SU0xoFFmS7Hq4K1YKC0ycyguXFCSh4
+
+                A4CLlU96h70u96T0rkRcki73ij3ipldKFoyPqFpeozqtQn8Gh7wy9VuUwohL4JC9QTrsSFRi1XhK1Wo+D29D3iACsDERCsaE1pZPsW81MpXZSm/drvdq9ZkQ2ioYpy
+
+                JrIuyqXrINorkUZU0WKPdp+qg2i+VSFfkUZEeog2srD0QqlH7veoDE98R8nCuVDqhKsNC2bdMIqeGJ7N54J2gtiplTlTNRomwgC3bzKHKpLIhbSjKoypjKohHqINp
+
+                TlUZVeQohCmhUVAKcitDETWKxSQUJ1GJN7FsPYlnUlK0FGYaSJtJPmiu90pJoNo6FKrDlOZeUWpZp2ByuQZl2ZP4phtCUEoS5W0KRcYU4Z5zkox5bE0krYCuo4Yu
+
+                5d3mnWYISZ0tZNNaBoF2cGiyN3N0Z55V/KVswzQNB4IX4RpERAmbWQY3GtpgEneAe/esnF+1FJoJFyNxMLZKWCNxfgjGGSXKNd1RjIbodBPj3pTGbVptEuPw6
+
+                SIcD+V872v7ZvcTkJAzGYngBH3Xmqu26kkkyHABzby4DQz9XNVerKXEVSL/QS5k+T7NSxtE3gAHv7jC41qTjB+Ek2MjzANl8XobeLHFzS45vmBOkcuHYQm9ke
+
+                0T2uIcQRnLoMkQSq5bq6VfYaxxfln2I4SDpIO8C47EtXYWmDw8VhbJ9pmuFnEQRa0GdAJ0XoMNi21XZXNggSDNuxVSipcR4fi+vsRcJR5fKFlIVtfClsk34ZRu58
+
+                EvnWCeeeOW2XDJpKXKLgjCpa9G16sx6uwcA3BVFqMuQkrQtQLaQWrsqmVKl64bSnMuzJbOu94F53ay2xkOUlyW94oNRR2MdjIcN89y1cHTAg3O64g+CwW1L2MHtjzW9
+
+                s6mRcuLp03R2ArqfpUby0439fYozvgfSuOxGRhIiQN/qFZicS1glxheU9odph7fh0A13eO8Lv6nOoxcU+SnDhc5Ljg81tXaVQucS4OnxibCZ0WK/FOfYzH279FOIcS
+
+                TcnuXUp4eICxY4HQyT4pFFTCg3nz/pJVsLTi7wO3f2nevQUmB2s+NkB2S1xJI8Fq+xm+55DF7PIGZhDhxBvx0S1B2eGuJa75Z+rgDzXrMZsa0tNtwnU8SsV2yyCAdeI7
+
+                dPE25lS3e4mvYpwWNfThhdEuF+QOvXBfQfZ72icXlszvDnd4/pfM8UJq5v5C3EgCfVauySWQT0I/SpyxTVrssg30z7NS2yLNcJmBw139nFdi2OBg6ag20Xz7ZOPJaQ4/
+
+                M8EcRc357vEr6Fs+p72k3M6SBBI3gb4XO1eN5ItPtdf6Y5RjCpL8lLmx4BS0qX6koZXF37WSosDlxKqzLi9WrUC2lmZFmVAKsDCpxzyfQbTHNdR79ZlPO5O0MKTqtLxIFFsvFZE
+
+                1xKvpYUBNNohOOnbJbfcqwlP4hPHoL1TXBrSTAA1/KxcGwBwJtHOOXb4IfaTH5GhjbSLxwP4BPgunpIrBFyM+WO+aijzPtXtrPWbTBhoueQB+5SNRrnsGYw3c31PErGNQGsXvNhA7XAXHd68k//
+
+                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"
+
+                    height="150"></td>
+
+            <td>
+
+                <h2 style="color:DarkGoldenRod;">About Me:</h2>
+
+            </td>
+
+            <td>
+
+ 
+
+                <p style="color:DarkRed;">My name is Abdullah. I am 8 years old. I made this Homepage with HTML,CSS and
+
+                    Javascript. I live in a a big house. I live with my family.</p>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td style="width:25%">
+
+                <h2 style="color:DeepPink;">My Hobbies:</h2>
+
+                <ul>
+
+                    <li>Solving the Rubik's Cube</li><a href=https://www.youtube.com/watch?v=mdRkOigWNQ4
+
+                        target="_blank">Me solving the Rubik's Cube</a>
+
+                    <li>Playing</li>
+
+                    <li>Reading</li>
+
+                </ul>
+
+            </td>
+
+            <td style="width:25%">
+
+                <h2 style="color:Blue;">My Favorite Subjects:</h2>
+
+                <ul>
+
+                    <li>Math</li>
+
+                    <li>Programming</li>
+
+                    <li>Writing</li>
+
+                </ul>
+
+            </td>
+
+            <td style="width:25%">
+
+                <h2 style="color:OrangeRed;">My Favorite Sports:</h2>
+
+                <ul>
+
+                    <li>Swimming</li>
+
+                    <li>Soccer</li>
+
+                    <li>Basketball</li>
+
+                </ul>
+
+            </td>
+
+            </td>
+
+            <td>
+
+                <button class="button button1" onclick="refresh()">See magic
+
+                </button>
+
+ 
+
+                <button class="button button1" onclick="unleashBugs()">Scare me
+
+                </button>
+
+            </td>
+
+ 
+
+        </tr>
+
+ 
+
+    </table>
+
+    <marquee style="color:red">Welcome! Don't forget to check back later. I'll be making updates.</marquee>
+
+    <h1 style="background-color:rgb(200, 255, 0);">My family:</h1>
+
+ 
+
+    <table>
+
+ 
+
+        <tr>
+
+ 
+
+            <td style="color:DarkRed;"><img class="roundimg"
+
+                    src="data:image/jpeg;base64,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"
+
+                    height="100" /></td>
+
+            <td style="color:DarkRed;"><img class="roundimg" height="100" />
+
+            <td>
+
+                <h2>My Dad</h2>My dad is so smart. He is my hero. He is my best friend. We do a lot of things together.<p>
+
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+
+                </p>
+
+            </td>
+
+            <td style="color:DarkRed;"><iframe width="150" height="200" src=https://www.youtube.com/embed/aPwdU_cUn6U>
+
+                </iframe>
+
+            </td>
+
+            <td style="color:DarkRed;"><img class="roundimg" height="100" />
+
+            <td>
+
+                <h2>My Dadi</h2>My Dadi is strict. She loves reading Quran. She is my teacher. She teaches me a lot of things. I love her very much.<p>Lorem ipsum dolor sit amet, consectetuer
+
+                    adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+
+                    volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+
+                    nisl ut aliquip ex ea commodo consequat.
+
+                </p>
+
+            </td>
+
+        </tr>
+
+ 
+
+        <tr>
+
+ 
+
+            <td style="color:DarkRed;"><img class="roundimg"
+
+                    src=https://th.bing.com/th/id/OIP.QVJrTt61TBnDLEWhB4D33gHaHa?w=186&h=186&c=7&r=0&o=5&pid=1.7
+
+                    height="100" /></td>
+
+            <td style="color:DarkRed;"><img class="roundimg" height="100" />
+
+            <td>
+
+                <h2>My Mom</h2>My Mom is a great cook. She makes delicious food.<p>Lorem ipsum dolor sit amet,
+
+                    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+
+                    aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+
+                    lobortis nisl ut aliquip ex ea commodo consequat.
+
+                </p>
+
+            </td>
+
+            <td style="color:DarkRed;"><img class="roundimg"
+
+                    src=https://th.bing.com/th/id/OIP.54orWSagXxDr8iAS8RUskAHaLE?w=182&h=272&c=7&r=0&o=5&dpr=1.25&pid=1.7
+
+                    height="200" /></td>
+
+            <td style="color:DarkRed;"><img class="roundimg" height="100" />
+
+            <td>
+
+                <h2>My Sister</h2>My Sister is nice. She loves reading. She is funny too.<p>Lorem ipsum dolor sit amet,
+
+                    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+
+                    aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+
+                    lobortis nisl ut aliquip ex ea commodo consequat.
+
+                </p>
+
+            </td>
+
+        </tr>
+
+ 
+
+        <td>
+
+            <form>
+
+            
+
+                <label for="lname">Enter your message:</label><br>
+
+                <input type="text" id="lname" name="lname"><br><br>
+                <button class="button button1"
+
+            onclick="alert('Thank you for visiting my Homepage')">Submit</button>
+
+            </form>
+
+        </td>
+
+  
+ 
+
+</body>
+
+ 
+
+</html>
